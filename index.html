@@ -16,13 +16,13 @@
         <!-- Меню страницы-->
         <ul class="header__menu-list">
           <li class="header__menu-list-item header__menu-list-item_no-bullit">
-            <a class="header__menu-list-active" href="#">главная</a>
+            <a class="header__menu-link header__menu-link-active" href="#">главная</a>
           </li>
           <li class="header__menu-list-item">
-            <a class="header__menu-list-inactive" href="#">посмотреть лоты</a>
+            <a class="header__menu-link header__menu-link-inactive" href="#">посмотреть лоты</a>
           </li>
           <li class="header__menu-list-item">
-            <a class="header__menu-list-inactive" href="#">об аукционе</a>
+            <a class="header__menu-link header__menu-link-inactive" href="#">об аукционе</a>
           </li>
         </ul>
       </nav>
@@ -31,13 +31,13 @@
         <img src="./images/logo-black.svg" alt="Логотип">
       </a>
       <!-- Адрес -->
-      <address>
-        <ul class="header__address">
+      <address class="address address__header">
+        <ul class="address-list">
           <li>
-            <a class="header__address-item" href="tel:+99995555555">+9 999 555 5555</a>
+            <a class="address-item" href="tel:+99995555555">+9 999 555 5555</a>
           </li>
           <li>
-            <a class="header__address-item" href="mail-to:info@sobaka.ge">info@sobaka.ge</a>
+            <a class="address-item" href="mail-to:info@sobaka.ge">info@sobaka.ge</a>
           </li>
           <li>
             <p>наб. Принсенграхт 263-<br>265,  Амстердам</p>
@@ -121,7 +121,7 @@
         </div>
 
         <div class="about__column-right">
-          <h1><span class="about__title">Об аукционе</span></h1>
+          <h2 class="about__title">Об аукционе</h2>
         </div>
         <div class="about__text">
             <p>
@@ -142,10 +142,18 @@
 
     <footer class="footer">
       <!-- Блок контактов-->
-      <address class="footer_contacts">
-        <a class="header__address-item" href="tel:+99995555555">+9 999 555 5555</a><br>
-        <a class="header__address-item" href="mailto:info@sobaka.ge">info@sobaka.ge</a><br>
-        <p>наб. Принсенграхт 263- 265,<br>Амстердам</p>
+      <address class="address address__footer">
+        <ul class="address-list">
+          <li>
+            <a class="address-item" href="tel:+99995555555">+9 999 555 5555</a>
+          </li>
+          <li>
+            <a class="address-item" href="mail-to:info@sobaka.ge">info@sobaka.ge</a>
+          </li>
+          <li class="address-item">
+            <p>наб. Принсенграхт 263-265,<br>Амстердам</p>
+          </li>
+        </ul>
       </address>
       <!-- Блок навигации -->
       <nav class="footer__menu">
@@ -179,7 +187,6 @@
         </a>
         </li>
     </ul>
-
     </footer>
   </body>
 </html>
