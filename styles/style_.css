@@ -264,7 +264,7 @@
   font-size: 20px;
   line-height: 100%;
   display: block;
-  margin-top: 33px;
+  margin-top: 32px;
   margin-left: 38px;
   text-underline-offset: 4px;
 }
@@ -288,7 +288,7 @@
   flex-direction: column;
   justify-content: center;
   align-items:flex-start;
-  margin-top: 48px;
+  margin-top: 46px;
 }
 
 .about__logo {
@@ -325,7 +325,7 @@
   font-size: 20px;
   padding-left: 23px;
   padding-right: 30px;
-  padding-top: 9px;
+  padding-top: 7px;
   line-height: 1.25;
 }
 
