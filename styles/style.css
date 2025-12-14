@@ -274,7 +274,7 @@
   grid-template-columns: 334px 1fr;
   grid-template-rows: 275px 1fr;
   width: 1052px;
-  margin: 0 24px 120px;
+  margin: 0 24px 122px;
 }
 
 .about__column {
@@ -324,15 +324,15 @@
   font-weight: 400;
   font-size: 20px;
   padding-left: 23px;
-  padding-right: 30px;
+  padding-right: 7px;
   padding-top: 9px;
-  line-height: 1.25;
+  line-height: 1.23;
 }
 
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  height: 234px;
+  height: 232px;
   gap: 20px;
 }
 
