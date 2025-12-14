@@ -332,7 +332,7 @@
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  height: 247px;
+  height: 256px;
   gap: 20px;
 }
 
