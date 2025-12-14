@@ -185,7 +185,7 @@
   font-size: 40px;
   line-height: 100%;
   text-transform: uppercase;
-  padding-top: 7px;
+  padding-top: 5px;
   margin-top: 45px;
   margin-left: 39px;
 }
@@ -332,7 +332,7 @@
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  height: 241px;
+  height: 247px;
   gap: 20px;
 }
 
